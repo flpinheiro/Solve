@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Solve}
+\author{Felipe Luís Pinheiro \and Daniel Soares}
+\date{Agosto de 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Solve - Sistema de Gerenciamento de suporte técnico para o agronegócio.
+\end{abstract}
+
+\section{Introdução}
+    Vivemos atualmente em um mundo no qual todos os principais serviços estão disponível para o cidadão através da internet, sendo que com o advento do Google em meadas dos anos 2000 ficou cada vez mais fácil para que usuários comuns encontrem os serviços que necessitam, dos mais básicos até os mais específicos, também com a ampliação das redes de telefonia móvel verificamos que onde antes não havia internet fixa, zonas rurais e setores afastados das grandes cidades, agora contam com internet banda larga de boa qualidade. Porém soluções pensadas para o homem do campo e para o produtor agrícola ainda são escassas, portanto, a Solve surge pensando em resolver esse problema trazendo uma solução prática e eficiente para o agronegócio brasileiro.
+    
+    A Solve foi pensada de modo a aproximar o serviço técnico para o agronegócio do agricultor de modo que com poucos cliques seja possível se contratar um serviço especializado sem grandes dificuldades. 
+    
+\section{Descrição Básica do Sistema}
+
+    O Sistema deve ter o \textbf{agricultor} que é o usuário final do sistema que pode ser uma \textbf{pessoa} ou uma \textbf{empresa}.
+    
+    Cada pessoa deve ter um ou mais \textbf{endereço} e um ou mais \textbf{telefones}.
+    
+    Cada endereço deve ser composto por país, estado, cidade, bairro, rua, número da rua, complemento e CEP.
+    
+    Cada telefone deve ser composto por DDI, DDD, numero e tipo (fixo ou celular).
+    
+    Cada empresa possui um nome, ou razão social, CNPJ, uma \textbf{sede} e suas \textbf{filiais}.
+    
+    Cada sede ou filial deve possuir uma Pessoa responsável, um endereço de funcionamento e um ou mais telefones.
+    
+    Do outro lado do sistema temos os \textbf{serviço-técnico} que pode ser desempenhado por uma pessoa (CPF) ou por uma empresa (CNPJ).
+    
+    Cada serviço técnico deve apresentar um conjunto de \textbf{serviços} o qual é capaz de executar, distância de atendimento.
+    
+    Os serviços precisam ter uma tabela de preços, descrição do serviço, nome do serviço, tipo de serviço.
+    
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
